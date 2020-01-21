@@ -68,7 +68,7 @@ class Population:
         best_vector = self.vectors[self.fitness.index(max_fitness)].coordinates
         print("Generation:", iteration)
         print("Max fitness:", round(max_fitness, 5))
-        print("Mean fitness", round(sum(self.fitness) / self.num_of_vectors, 5))
+        print("Mean fitness:", round(sum(self.fitness) / self.num_of_vectors, 5))
         if print_best_vector:
             print("Best vector:", best_vector)
         print()
