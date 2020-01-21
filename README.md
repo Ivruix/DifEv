@@ -1,5 +1,5 @@
 # DifEv
-This is a simple implementation of [differential evolution](https://en.wikipedia.org/wiki/Differential_evolution) algorithm. It's written in python without use of any external libraries.
+This is a simple implementation of [differential evolution](https://en.wikipedia.org/wiki/Differential_evolution) algorithm. It's written in python without using any external libraries.
 
 ## Installation
 You can either download this repo, or use pip to install it with this command:
