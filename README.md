@@ -38,19 +38,19 @@ After training is done, you should see something like this:
 ```python
 Generation: 0
 Max fitness: 65.77771
-Mean fitness -34.66543
+Mean fitness: -34.66543
 
 Generation: 25
 Max fitness: 99.13482
-Mean fitness 94.9277
+Mean fitness: 94.9277
 
 Generation: 50
 Max fitness: 99.55339
-Mean fitness 99.34972
+Mean fitness: 99.34972
 
 Generation: 75
 Max fitness: 99.96135
-Mean fitness 99.95119
+Mean fitness: 99.95119
 
 [0.00043471808742134854, -0.0007301719104293918, -0.0006206301893956611]
 ```
