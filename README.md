@@ -32,7 +32,9 @@ After that, start optimisation process. It ends if fitness function reaches it's
 ```python
 max_iteration = 100
 target_fitness = 100
-print(p.train(max_iteration, target_fitness))    # at the end of training returns best solution
+representation_interval = 25
+print(p.train(max_iteration, target_fitness,     # train() returns the best solution
+              representation_interval))          # representation interval is 0 by default
 ```
 After training is done, you should see something like this:
 ```python
