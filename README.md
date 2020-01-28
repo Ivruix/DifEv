@@ -56,3 +56,6 @@ Mean fitness: 99.95119
 
 [0.00043471808742134854, -0.0007301719104293918, -0.0006206301893956611]
 ```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
