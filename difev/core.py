@@ -44,7 +44,7 @@ class Population:
         for i in range(self.num_of_vectors):
 
             indexes = sample(range(self.num_of_vectors), 3)
-            while not (i in indexes):
+            while i in indexes:
                 indexes = sample(range(self.num_of_vectors), 3)
             new_vector = self.vectors[indexes[0]] + \
                          (self.vectors[indexes[1]] - self.vectors[indexes[2]]) * self.differential_weight
